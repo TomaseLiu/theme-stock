@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.datayes.bdb.theme.stock.dao.bigdata.BigdataMapper">
+
+	<select id='getThemeList' resultType='com.datayes.bdb.theme.stock.entity.BigdataTheme'>
+		select THEME_ID AS themeID, THEME_NAME AS themeName, THEME_DESC AS themeDesc, UPDATE_TIME as updateTime from themes_new
+	</select>
+	
+	<select id='getThemeSecurityPairList' resultType='com.datayes.bdb.theme.stock.entity.BigdataThemeSecRel'>
+		select 
+		theme_sec.THEME_ID as themeID, 
+		themes.THEME_NAME as themeName, 
+		theme_sec.SECURITY_ID_INT as securityID, 
+		theme_sec.TICKER_SYMBOL as tickerSymbol, 
+		theme_sec.SEC_SHORT_NAME as secShortName, 
+		theme_sec.REL_DESC as relDesc,
+		theme_sec.TYPE as type,
+		theme_sec.BEGIN_TIME as beginTime,
+		theme_sec.END_TIME as endTime,
+		theme_sec.IS_ACTIVE as isActive
+		from theme_sec_rel_new theme_sec
+		left join themes_new themes
+		on theme_sec.THEME_ID = themes.THEME_ID
+		where theme_sec.END_TIME IS NULL and theme_sec.IS_ACTIVE = 1
+	</select>
+	
+</mapper>

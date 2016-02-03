@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.datayes.bdb.theme.stock.dao.news.NewsMapper">
+	<select id='getNews' resultType='com.datayes.bdb.theme.stock.entity.ThemeText'>
+		select news_id as textID, news_title as title, news_publish_time as publishTime, source_name as source, news_body as body, "news" as type
+		from news_detail_backup where isActive=1 and group_id!=-1 and 
+		news_publish_time &gt; #{startDate} and news_publish_time <![CDATA[<=]]> #{endDate};
+	</select>
+</mapper>

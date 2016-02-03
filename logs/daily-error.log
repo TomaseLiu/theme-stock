@@ -1,0 +1,6 @@
+2016-01-26 15:43:27,354 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:76 - java.io.FileNotFoundException: libary (拒绝访问。) 
+2016-01-26 15:43:27,396 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:57 - java.io.FileNotFoundException: libary (拒绝访问。) 
+2016-01-26 15:46:39,420 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:76 - java.io.FileNotFoundException: libary (拒绝访问。) 
+2016-01-26 15:46:39,440 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:57 - java.io.FileNotFoundException: libary (拒绝访问。) 
+2016-01-26 16:35:34,503 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:76 - java.io.FileNotFoundException: data\dict\user.dict (系统找不到指定的文件。) 
+2016-01-26 16:37:39,501 [myExecutor-1] [ERROR] com.datayes.bdb.theme.stock.util.FileIOUtil Line:76 - java.io.FileNotFoundException: data\dict\user.dict (系统找不到指定的文件。) 

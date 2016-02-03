@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns:aop="http://www.springframework.org/schema/aop"
+     xmlns:tx="http://www.springframework.org/schema/tx"
+     xmlns:jdbc="http://www.springframework.org/schema/jdbc"
+     xmlns:context="http://www.springframework.org/schema/context"
+     xmlns:mongo="http://www.springframework.org/schema/data/mongo"
+     xsi:schemaLocation="
+     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+     http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd
+     http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd
+     http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+     http://www.springframework.org/schema/data/mongo http://www.springframework.org/schema/data/mongo/spring-mongo-1.0.xsd">
+    
+    <context:property-placeholder location="classpath:datasource.properties" ignore-unresolvable="true" />
+
+    <context:annotation-config /> 
+    
+    <!-- enable aop with annotations --> 
+    <!--
+        <aop:aspectj-autoproxy proxy-target-class="true" expose-proxy="true"/>
+     -->
+    <tx:annotation-driven />
+  
+    <bean id="abstractDataSource" abstract="true" class="com.mchange.v2.c3p0.ComboPooledDataSource" destroy-method="close">
+		<property name="autoCommitOnClose" value="true" />
+		<property name="minPoolSize" value="${jdbc.pool.minPoolSize}" />
+		<property name="maxPoolSize" value="${jdbc.pool.maxPoolSize}" />
+		<property name="initialPoolSize" value="${jdbc.pool.initialPoolSize}" />
+		<property name="maxIdleTime" value="${jdbc.pool.maxIdleTime}" />
+		<property name="acquireIncrement" value="${jdbc.pool.acquireIncrement}" />
+		<property name="acquireRetryAttempts" value="${jdbc.pool.acquireRetryAttempts}" />
+		<property name="checkoutTimeout" value="${jdbc.pool.checkoutTimeout}" />
+	</bean>
+	
+	<!-- bigdata db -->
+	<bean id="bigdataDataSource" parent="abstractDataSource">
+		<property name="driverClass" value="${datasource.bigdata.driver}" />
+		<property name="jdbcUrl" value="${datasource.bigdata.url}" />
+		<property name="user" value="${datasource.bigdata.username}" />
+		<property name="password" value="${datasource.bigdata.password}" />
+	</bean>
+    <bean id="bigdataSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="bigdataDataSource" />
+        <property name="mapperLocations" value="classpath:mybatis/**/*.xml" />
+        <property name="typeAliasesPackage" value="com.datayes.bdb.theme.stock.entity" />
+    </bean>
+    <bean id="bigdataScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.datayes.bdb.theme.stock.dao.bigdata" />
+        <property name="sqlSessionFactoryBeanName" value="bigdataSqlSessionFactory" />
+    </bean>
+    <bean id="bigdataTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="bigdataDataSource" />
+    </bean>
+    <!-- datayesdbp db -->
+	<bean id="datayesdbpDataSource" parent="abstractDataSource">
+		<property name="driverClass" value="${datasource.datayesdbp.driver}" />
+		<property name="jdbcUrl" value="${datasource.datayesdbp.url}" />
+		<property name="user" value="${datasource.datayesdbp.username}" />
+		<property name="password" value="${datasource.datayesdbp.password}" />
+	</bean>
+    <bean id="datayesdbpSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="datayesdbpDataSource" />
+        <property name="mapperLocations" value="classpath:mybatis/**/*.xml" />
+        <property name="typeAliasesPackage" value="com.datayes.bdb.theme.stock.entity" />
+    </bean>
+    <bean id="datayesdbpScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.datayes.bdb.theme.stock.dao.datayesdbp" />
+        <property name="sqlSessionFactoryBeanName" value="datayesdbpSqlSessionFactory" />
+    </bean>
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="datayesdbpDataSource" />
+    </bean>
+    <!-- news db -->
+	<bean id="newsDataSource" parent="abstractDataSource">
+		<property name="driverClass" value="${datasource.news.driver}" />
+		<property name="jdbcUrl" value="${datasource.news.url}" />
+		<property name="user" value="${datasource.news.username}" />
+		<property name="password" value="${datasource.news.password}" />
+	</bean>
+    <bean id="newsSqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="newsDataSource" />
+        <property name="mapperLocations" value="classpath:mybatis/**/*.xml" />
+        <property name="typeAliasesPackage" value="com.datayes.bdb.theme.stock.entity" />
+    </bean>
+    <bean id="newsScanner" class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.datayes.bdb.theme.stock.dao.news" />
+        <property name="sqlSessionFactoryBeanName" value="newsSqlSessionFactory" />
+    </bean>
+    <bean id="newsTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="newsDataSource" />
+    </bean>
+    
+    <!-- mongo db -->
+	<mongo:mongo host="${datasource.mongo.host}"></mongo:mongo>
+    
+    <mongo:db-factory id="themeMongoDbFactory" dbname="${datasource.mongo.db.theme}" mongo-ref="mongo" />
+	<mongo:mapping-converter id="themeMongoConverter" base-package="com.datayes.bdb.theme.stock.entity" db-factory-ref="themeMongoDbFactory">
+	</mongo:mapping-converter>
+	<bean id="themeMongoTemplate" class="org.springframework.data.mongodb.core.MongoTemplate">
+		<constructor-arg ref="themeMongoDbFactory" />
+		<constructor-arg ref="themeMongoConverter" />
+	</bean>
+	
+	<mongo:repositories base-package="com.datayes.bdb.theme.stock.dao.mongo" mongo-template-ref="themeMongoTemplate"></mongo:repositories>
+	
+</beans>

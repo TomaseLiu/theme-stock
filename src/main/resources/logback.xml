@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder charset="UTF-8">
+			<pattern>%date [%thread] [%level] %logger Line:%L - %msg %n</pattern>
+		</encoder>
+	</appender>
+	<appender name="ROLL-FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+        <file>logs/daily.log</file>  
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/daily.%d{yyyy-MM-dd}.log</fileNamePattern>  
+        </rollingPolicy>  
+        <encoder charset="UTF-8">  
+            <pattern>%date [%thread] [%level] %logger Line:%L - %msg %n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+		    <level>ERROR</level>
+		    <onMatch>DENY</onMatch>
+		    <onMismatch>ACCEPT</onMismatch>
+		</filter>
+    </appender>
+    <appender name="ROLL-FILE-ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">  
+        <file>logs/daily-error.log</file>  
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>logs/daily-error.%d{yyyy-MM-dd}.log</fileNamePattern>  
+        </rollingPolicy>  
+        <encoder charset="UTF-8">  
+            <pattern>%date [%thread] [%level] %logger Line:%L - %msg %n</pattern>
+        </encoder>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+	        <level>ERROR</level>
+	        <onMatch>ACCEPT</onMatch>
+	        <onMismatch>DENY</onMismatch>
+	    </filter>
+    </appender>
+     
+    <logger name="com.datayes.bdb.theme.stock">
+        <level value="info" />
+        <appender-ref ref="STDOUT" />
+    </logger>
+     
+    <logger name="com.datayes.bdb.theme.stock">
+        <level value="info" />
+        <appender-ref ref="ROLL-FILE" />
+        <appender-ref ref="ROLL-FILE-ERROR" />
+    </logger>
+</configuration>

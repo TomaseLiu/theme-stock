@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<web-app>
+
+	<display-name>ThemeIndex</display-name>
+	
+    <context-param>
+        <param-name>contextConfiguration</param-name>
+        <param-value>classpath:spring.xml</param-value>
+    </context-param>
+   
+   <!--  
+	<context-param>
+    	<param-name>logbackConfigLocation</param-name>
+   		<param-value>classpath:logback.xml</param-value>
+    </context-param>
+    -->
+	<listener>
+    	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    	<!-- <listener-class>ch.qos.logback.ext.spring.web.LogbackConfigListener</listener-class> -->
+	</listener>
+	<!-- servlet -->
+
+	<servlet>
+		<servlet-name>ThemeIndex</servlet-name>
+		<servlet-class>com.datayes.bdb.theme.index.api.ThemeIndexQueryServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<!-- mapping -->
+
+	<servlet-mapping>
+		<servlet-name>default</servlet-name>
+		<url-pattern>*.html</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet-mapping>
+		<servlet-name>ThemeIndex</servlet-name>
+		<url-pattern>/themeIndex/query/*</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+	
+	<!-- 
+	<mvc:interceptors>
+		<mvc:interceptor>
+			<mvc:mapping path="/**"/>
+			<bean class="com.datayes.bdb.mole.api.handler.LogInterceptor" />
+		</mvc:interceptor>
+	</mvc:interceptors>
+	-->
+
+</web-app>

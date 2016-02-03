@@ -1,0 +1,829 @@
+2016-01-26 11:33:28,526 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:71 - Init batch. 
+2016-01-26 11:33:28,533 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 11:33:36,118 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 11:33:36,148 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:49 - Start to init updateLocalDataTask dump job. 
+2016-01-26 11:33:36,151 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:91 - Batch is working. 
+2016-01-26 11:33:36,154 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateLocalDataTask dump job. 
+2016-01-26 11:33:36,154 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateLocalDataTask Line:54 - start to do dump task: Tue Jan 26 11:33:36 CST 2016 
+2016-01-26 11:33:41,129 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 概念 ,from Sun Oct 18 11:33:40 CST 2015 to Tue Jan 26 11:33:40 CST 2016, page from 0 to 500  
+2016-01-26 11:33:41,137 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1445139220927 ,end time = 1453779220927 
+2016-01-26 11:33:41,491 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 69 
+2016-01-26 11:33:47,494 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateLocalDataTask Line:61 - finished dump task: Tue Jan 26 11:33:36 CST 2016 
+2016-01-26 11:33:47,494 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateLocalDataTask dump job. 
+2016-01-26 11:33:47,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateLocalDataTask dump job, start to do schedule job. 
+2016-01-26 15:36:46,608 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:65 - Init batch. 
+2016-01-26 15:36:46,612 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:36:53,373 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:36:53,380 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:84 - Batch is working. 
+2016-01-26 15:39:05,785 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:65 - Init batch. 
+2016-01-26 15:39:05,789 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:39:13,203 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:39:13,210 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:84 - Batch is working. 
+2016-01-26 15:40:09,021 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:65 - Init batch. 
+2016-01-26 15:40:09,024 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:40:15,984 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:40:15,985 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:74 - schedule 
+2016-01-26 15:40:15,992 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:86 - Batch is working. 
+2016-01-26 15:40:51,891 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:66 - Init batch. 
+2016-01-26 15:40:51,894 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:40:58,941 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:40:58,941 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:75 - schedule 
+2016-01-26 15:40:58,942 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:38 - startDumpTask 
+2016-01-26 15:40:58,946 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:87 - Batch is working. 
+2016-01-26 15:41:27,564 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:66 - Init batch. 
+2016-01-26 15:41:27,567 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:41:34,705 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:41:34,705 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:75 - schedule 
+2016-01-26 15:41:34,706 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:38 - startDumpTask, updateLocalDataTask 
+2016-01-26 15:41:34,713 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:87 - Batch is working. 
+2016-01-26 15:42:12,011 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:66 - Init batch. 
+2016-01-26 15:42:12,015 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:42:18,749 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:42:18,749 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:75 - schedule 
+2016-01-26 15:42:18,750 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:38 - startDumpTask, updateLocalDataTask 
+2016-01-26 15:42:18,756 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:42 - current task: updateLocalDataTask 
+2016-01-26 15:42:18,757 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:87 - Batch is working. 
+2016-01-26 15:43:15,807 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 15:43:15,811 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:43:22,655 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:43:22,661 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 15:43:22,666 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 15:43:22,696 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 15:43:22,697 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 15:43:22 CST 2016 
+2016-01-26 15:43:22,697 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 15:43:27,395 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:78 - Add 3025 new words into jieba dictionary. 
+2016-01-26 15:43:27,396 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:221 - start getThemeSecPairToBeQA(); 
+2016-01-26 15:43:32,287 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:228 - all themes list size: 1; 
+2016-01-26 15:43:32,293 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 1 
+2016-01-26 15:43:32,294 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:111 - get unhandled theme list size: 0 
+2016-01-26 15:43:32,295 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:231 - unhandled themes list size: 0; 
+2016-01-26 15:43:32,305 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:43:32,305 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: false 
+2016-01-26 15:43:32,305 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:245 - schedule themes Set size: 1 
+2016-01-26 15:43:32,398 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 概念 ,from Sun Oct 18 15:43:32 CST 2015 to Tue Jan 26 15:43:32 CST 2016, page from 0 to 500  
+2016-01-26 15:43:32,402 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1445154212305 ,end time = 1453794212305 
+2016-01-26 15:43:32,659 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 69 
+2016-01-26 15:43:33,581 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 69 
+2016-01-26 15:43:33,581 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 15:43:33,582 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 69 
+2016-01-26 15:43:33,582 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 15:43:33,582 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 15:43:33,733 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 15:43:33,733 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:43:33,733 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: true 
+2016-01-26 15:43:33,734 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:43:34,825 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 15:43:34,828 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:264 - finished getThemeSecPairToBeQA(); 
+2016-01-26 15:43:34,829 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 15:43:34,829 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:279 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 15:43:35,026 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 15:43:35,027 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 15:43:35,028 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 15:43:22 CST 2016 
+2016-01-26 15:43:35,028 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 15:43:35,028 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 15:46:27,951 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 15:46:27,956 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:46:35,003 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:46:35,009 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 15:46:35,025 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 15:46:35,062 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 15:46:35,063 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 15:46:35 CST 2016 
+2016-01-26 15:46:35,064 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 15:46:35,064 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary 
+2016-01-26 15:46:39,439 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:80 - Add 3025 new words into jieba dictionary. 
+2016-01-26 15:46:39,440 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:223 - start getThemeSecPairToBeQA(); 
+2016-01-26 15:46:44,215 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:230 - all themes list size: 1; 
+2016-01-26 15:46:44,219 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 1 
+2016-01-26 15:46:44,219 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:113 - get unhandled theme list size: 0 
+2016-01-26 15:46:44,220 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - unhandled themes list size: 0; 
+2016-01-26 15:46:44,220 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:46:44,220 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: false 
+2016-01-26 15:46:44,222 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:247 - schedule themes Set size: 1 
+2016-01-26 15:46:44,286 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 概念 ,from Sun Oct 18 15:46:44 CST 2015 to Tue Jan 26 15:46:44 CST 2016, page from 0 to 500  
+2016-01-26 15:46:44,291 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1445154404223 ,end time = 1453794404223 
+2016-01-26 15:46:44,592 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 69 
+2016-01-26 15:46:45,446 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 69 
+2016-01-26 15:46:45,446 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 15:46:45,446 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 69 
+2016-01-26 15:46:45,446 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 15:46:45,446 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 15:46:45,589 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 15:46:45,591 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:46:45,591 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: true 
+2016-01-26 15:46:45,591 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:46:45,692 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 15:46:45,696 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:266 - finished getThemeSecPairToBeQA(); 
+2016-01-26 15:46:45,697 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 15:46:45,697 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:281 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 15:46:45,699 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 15:46:45,723 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 15:46:45,725 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 15:46:35 CST 2016 
+2016-01-26 15:46:45,725 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 15:46:45,725 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 15:47:58,334 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 15:47:58,338 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:48:05,114 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:48:05,121 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 15:48:05,125 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 15:48:05,185 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 15:48:05,190 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 15:48:05 CST 2016 
+2016-01-26 15:48:05,192 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 15:48:05,192 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary/user.dict 
+2016-01-26 15:48:09,402 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:80 - Add 12783 new words into jieba dictionary. 
+2016-01-26 15:48:09,449 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:223 - start getThemeSecPairToBeQA(); 
+2016-01-26 15:48:13,769 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:230 - all themes list size: 1; 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 1 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:113 - get unhandled theme list size: 0 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - unhandled themes list size: 0; 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: false 
+2016-01-26 15:48:13,772 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:247 - schedule themes Set size: 1 
+2016-01-26 15:48:13,857 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 概念 ,from Sun Oct 18 15:48:13 CST 2015 to Tue Jan 26 15:48:13 CST 2016, page from 0 to 500  
+2016-01-26 15:48:13,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1445154493773 ,end time = 1453794493773 
+2016-01-26 15:48:14,195 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 69 
+2016-01-26 15:48:15,493 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 69 
+2016-01-26 15:48:15,494 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 15:48:15,494 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 69 
+2016-01-26 15:48:15,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 15:48:15,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 15:48:15,629 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 4 
+2016-01-26 15:48:15,630 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:48:15,630 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: true 
+2016-01-26 15:48:15,630 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:48:15,799 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 15:48:15,802 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:266 - finished getThemeSecPairToBeQA(); 
+2016-01-26 15:48:15,803 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 15:48:15,803 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:281 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 15:48:15,805 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 15:48:15,812 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 15:48:15,812 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 15:48:05 CST 2016 
+2016-01-26 15:48:15,813 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 15:48:15,813 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 15:54:51,100 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 15:54:51,103 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:55:00,820 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:55:00,828 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 15:55:00,832 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 15:55:00,872 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 15:55:00,874 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 15:55:00 CST 2016 
+2016-01-26 15:55:00,875 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 15:55:00,875 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary/user.dict 
+2016-01-26 15:55:05,633 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:80 - Add 12783 new words into jieba dictionary. 
+2016-01-26 15:55:05,661 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:223 - start getThemeSecPairToBeQA(); 
+2016-01-26 15:55:10,451 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:230 - all themes list size: 1; 
+2016-01-26 15:55:10,455 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 1 
+2016-01-26 15:55:10,455 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:113 - get unhandled theme list size: 0 
+2016-01-26 15:55:10,456 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - unhandled themes list size: 0; 
+2016-01-26 15:55:10,456 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:55:10,456 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: false 
+2016-01-26 15:55:10,457 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:247 - schedule themes Set size: 1 
+2016-01-26 15:55:10,567 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 一带一路 概念 ,from Sun Oct 18 15:55:10 CST 2015 to Tue Jan 26 15:55:10 CST 2016, page from 0 to 500  
+2016-01-26 15:55:10,570 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1445154910457 ,end time = 1453794910457 
+2016-01-26 15:55:10,861 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 0 
+2016-01-26 15:55:10,863 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 15:55:10,863 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 15:55:10,863 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 0 
+2016-01-26 15:55:10,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 15:55:10,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 15:55:10,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 15:55:10,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:55:10,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: true 
+2016-01-26 15:55:10,865 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:55:10,995 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 15:55:11,004 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:266 - finished getThemeSecPairToBeQA(); 
+2016-01-26 15:55:11,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 15:55:11,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:281 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 15:55:11,007 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 15:55:11,023 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 15:55:11,023 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 15:55:00 CST 2016 
+2016-01-26 15:55:11,023 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 15:55:11,023 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 15:58:13,436 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 15:58:13,439 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 15:58:20,661 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 15:58:20,669 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 15:58:20,672 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 15:58:20,734 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 15:58:20,735 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 15:58:20 CST 2016 
+2016-01-26 15:58:20,736 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 15:58:20,736 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary/user.dict 
+2016-01-26 15:58:25,325 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12783 
+2016-01-26 15:58:25,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 15:58:25,377 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 15:58:30,004 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 15:58:30,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 15:58:30,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 15:58:30,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 15:58:30,098 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 一带一路 概念 ,from Mon Dec 07 15:58:30 CST 2015 to Tue Jan 26 15:58:30 CST 2016, page from 0 to 500  
+2016-01-26 15:58:30,102 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1449475110006 ,end time = 1453795110006 
+2016-01-26 15:58:30,240 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 0 
+2016-01-26 15:58:30,241 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 15:58:30,241 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 15:58:30,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 0 
+2016-01-26 15:58:30,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 15:58:30,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 15:58:30,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 15:58:30,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:58:30,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 15:58:30,244 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:58:30,348 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 15:58:30,354 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 15:58:30,354 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 15:58:30,354 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 15:58:30,355 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 15:58:30,355 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 15:58:30,355 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 15:58:30,355 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 15:58:30,383 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 15:58:30,385 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 15:58:30,386 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 15:58:20 CST 2016 
+2016-01-26 15:58:30,386 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 15:58:30,386 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:03:12,877 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:80 - Advance search news : keyword=一带 一路 一带一路 ,from Fri Jul 10 16:03:12 CST 2015 to Tue Jan 26 16:03:12 CST 2016, page from 0 to 1000  
+2016-01-26 16:03:12,886 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:88 - start time = 1436515392782 ,end time = 1453795392782 
+2016-01-26 16:03:13,158 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:112 - Advanced search result size = 0 
+2016-01-26 16:06:13,575 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:13,585 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:15,263 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:15,717 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:15,717 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:18,703 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:18,944 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:18,945 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:23,018 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:23,160 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:23,161 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:24,855 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:24,970 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:24,970 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:26,283 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:26,411 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:26,411 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:28,083 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:28,195 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:28,195 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:30,672 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:30,769 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:30,770 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:31,979 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:32,080 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:32,080 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:33,764 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:33,852 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:33,852 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:35,793 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:35,883 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:35,883 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:37,210 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:37,304 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:37,304 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:38,485 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:38,608 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:38,608 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:40,698 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:40,790 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:40,790 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:42,376 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:42,468 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:42,469 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:44,384 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:44,476 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:44,477 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:46,154 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:46,245 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:46,246 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:47,524 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:47,619 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:47,620 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:49,989 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:50,080 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:50,081 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:51,412 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:51,503 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:51,503 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:53,024 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:53,123 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:53,123 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:06:54,322 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 43929 
+2016-01-26 16:06:54,415 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:06:54,416 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515573498 ,end time = 1453795573498 
+2016-01-26 16:12:19,341 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:12:19,351 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436515939236 ,end time = 1453795939236 
+2016-01-26 16:12:19,714 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 131 
+2016-01-26 16:13:16,672 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:13:16,675 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:13:23,803 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:13:23,810 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:13:23,815 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:13:23,854 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:13:23,855 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:13:23 CST 2016 
+2016-01-26 16:13:23,855 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:13:23,856 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:13:28,017 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:13:28,021 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:13:28,021 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:13:28,021 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:13:28,124 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:13:28,130 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449476008022 ,end time = 1453796008022 
+2016-01-26 16:13:28,344 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:13:28,646 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:13:28,654 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:13:28,655 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:13:28,655 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:13:28,655 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:13:28,700 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:13:28,701 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:13:28,701 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:13:28,701 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:13:28,802 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:13:28,805 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:13:28,805 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:13:28,805 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:13:28,806 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:13:28,806 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:13:28,806 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:13:28,807 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:13:28,810 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:13:28,817 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:13:28,817 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:13:23 CST 2016 
+2016-01-26 16:13:28,817 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:13:28,817 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:15:18,159 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:15:18,164 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:15:24,790 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:15:24,797 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:15:24,810 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:15:24,844 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:15:24,844 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:15:24 CST 2016 
+2016-01-26 16:15:24,845 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:15:24,847 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary/user.dict 
+2016-01-26 16:15:30,047 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12267 
+2016-01-26 16:15:30,113 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 515 new words into jieba dictionary. 
+2016-01-26 16:15:30,114 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:15:34,974 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:15:34,975 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:15:34,975 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:15:34,976 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:15:35,162 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:15:35,167 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449476134983 ,end time = 1453796134983 
+2016-01-26 16:15:35,342 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:15:35,657 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:15:35,657 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:15:35,658 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:15:35,658 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:15:35,659 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:15:35,698 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:15:35,699 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:15:35,699 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:15:35,699 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:15:35,804 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:15:35,814 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:15:35,815 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:15:35,815 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:15:35,815 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:15:35,815 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:15:35,816 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:15:35,816 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:15:35,818 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:15:35,831 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:15:35,831 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:15:24 CST 2016 
+2016-01-26 16:15:35,831 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:15:35,831 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:18:18,680 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:18:18,684 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:18:25,298 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:18:25,305 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:18:25,308 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:18:25,330 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:18:25,331 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:18:25 CST 2016 
+2016-01-26 16:18:25,332 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:18:25,332 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: libary/user.dict 
+2016-01-26 16:18:30,849 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12783 
+2016-01-26 16:18:30,902 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 16:18:30,903 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:18:36,448 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:18:36,449 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:18:36,450 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:18:36,458 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:18:36,527 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:18:36,530 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449476316459 ,end time = 1453796316459 
+2016-01-26 16:18:36,651 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:18:36,652 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 16:18:36,653 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:18:36,654 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 0 
+2016-01-26 16:18:36,654 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:18:36,655 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:18:36,655 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 16:18:36,656 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:18:36,656 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:18:36,656 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:18:36,753 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:18:36,758 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:18:36,759 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:18:36,759 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:18:36,759 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:18:36,759 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:18:36,760 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:18:36,760 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:18:36,763 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:18:36,765 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:18:36,765 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:18:25 CST 2016 
+2016-01-26 16:18:36,765 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:18:36,766 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:19:42,004 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:19:42,013 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436516381919 ,end time = 1453796381919 
+2016-01-26 16:19:42,147 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:20:39,765 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 一带一路 概念  
+2016-01-26 16:20:39,770 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-07-10 to 2016-01-26, page from 0 to 1000  
+2016-01-26 16:20:39,774 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1436516439688 ,end time = 1453796439688 
+2016-01-26 16:20:39,888 [main] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:31:18,107 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:31:18,112 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:31:24,512 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:31:24,519 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:31:24,523 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:31:24,556 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:31:24,556 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:31:24 CST 2016 
+2016-01-26 16:31:24,557 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:31:24,558 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:31:29,337 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12267 
+2016-01-26 16:31:29,399 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 515 new words into jieba dictionary. 
+2016-01-26 16:31:29,399 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:31:34,152 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:31:34,153 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:31:34,154 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:31:34,155 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:31:34,235 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 概念  
+2016-01-26 16:31:34,236 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:31:34,239 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477094156 ,end time = 1453797094156 
+2016-01-26 16:31:34,442 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:31:34,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:31:34,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:31:34,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:31:34,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:31:34,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:31:34,910 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:31:34,911 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:31:34,911 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:31:34,911 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:31:35,038 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:31:35,049 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:31:35,050 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:31:35,050 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:31:35,050 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:31:35,050 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:31:35,051 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:31:35,051 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:31:35,076 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:31:35,077 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:31:35,078 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:31:24 CST 2016 
+2016-01-26 16:31:35,078 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:31:35,079 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:32:28,297 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:32:28,300 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:32:36,818 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:32:36,823 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:32:36,825 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:32:36,874 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:32:36,875 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:32:36 CST 2016 
+2016-01-26 16:32:36,875 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:32:36,876 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:32:41,234 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12267 
+2016-01-26 16:32:41,289 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 515 new words into jieba dictionary. 
+2016-01-26 16:32:41,289 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:32:45,488 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:32:45,489 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:32:45,490 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:32:45,490 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:32:45,569 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 概念  
+2016-01-26 16:32:45,569 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:32:45,575 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477165492 ,end time = 1453797165492 
+2016-01-26 16:32:45,754 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:32:46,132 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:32:46,133 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:32:46,133 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:32:46,133 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:32:46,133 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:32:46,184 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:32:46,184 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:32:46,185 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:32:46,185 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:32:46,291 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:32:46,295 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:32:46,295 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:32:46,296 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:32:46,296 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:32:46,296 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:32:46,296 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:32:46,297 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:32:46,301 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:32:46,311 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:32:46,312 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:32:36 CST 2016 
+2016-01-26 16:32:46,312 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:32:46,312 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:33:45,320 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:33:45,325 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:33:52,115 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:33:52,122 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:33:52,130 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:33:52,157 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:33:52,158 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:33:52 CST 2016 
+2016-01-26 16:33:52,158 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:33:52,159 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:33:56,517 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12783 
+2016-01-26 16:33:56,565 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 16:33:56,566 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:34:00,917 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:34:00,918 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:34:00,918 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:34:00,918 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:34:01,012 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 一带一路 概念  
+2016-01-26 16:34:01,013 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:34:01,017 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477240918 ,end time = 1453797240918 
+2016-01-26 16:34:01,175 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:34:02,113 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 16:34:02,113 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:34:02,114 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 0 
+2016-01-26 16:34:02,114 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:34:02,115 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:34:02,115 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 16:34:02,116 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:34:02,117 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:34:02,117 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:34:02,231 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:34:02,237 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:34:02,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:34:02,242 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:34:02,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:34:02,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:34:02,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:34:02,243 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:34:02,246 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:34:02,248 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:34:02,249 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:33:52 CST 2016 
+2016-01-26 16:34:02,249 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:34:02,249 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:35:22,794 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:35:22,797 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:35:29,351 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:35:29,359 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:35:29,367 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:35:29,401 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:35:29,402 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:35:29 CST 2016 
+2016-01-26 16:35:29,402 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:35:29,403 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:35:34,504 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 0 
+2016-01-26 16:35:34,533 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 3024 new words into jieba dictionary. 
+2016-01-26 16:35:34,533 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:35:39,592 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:35:39,593 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:35:39,593 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:35:39,594 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:35:39,664 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 概念  
+2016-01-26 16:35:39,665 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:35:39,668 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477339594 ,end time = 1453797339594 
+2016-01-26 16:35:39,848 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:35:40,328 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:35:40,328 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:35:40,328 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:35:40,328 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:35:40,328 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:35:40,364 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:35:40,365 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:35:40,365 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:35:40,365 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:35:40,474 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:35:40,487 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:35:40,488 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:35:40,489 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:35:40,489 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:35:40,489 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:35:40,490 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:35:40,490 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:35:40,498 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:35:40,499 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:35:40,500 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:35:29 CST 2016 
+2016-01-26 16:35:40,501 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:35:40,503 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:36:43,063 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:36:43,068 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:36:52,573 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:36:52,580 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:36:52,585 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:36:52,619 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:36:52,620 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:36:52 CST 2016 
+2016-01-26 16:36:52,621 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:36:52,621 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:36:56,921 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 3025 
+2016-01-26 16:36:56,954 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 16:36:56,954 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:37:01,947 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:37:01,949 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:37:01,949 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:37:01,949 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:37:02,058 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 一带一路 概念  
+2016-01-26 16:37:02,058 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:37:02,063 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477421950 ,end time = 1453797421950 
+2016-01-26 16:37:02,188 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:37:02,256 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 16:37:02,257 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:37:02,257 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 0 
+2016-01-26 16:37:02,258 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:37:02,258 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:37:02,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 16:37:02,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:37:02,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:37:02,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:37:02,372 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:37:02,376 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:37:02,377 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:37:02,378 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:37:02,440 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:37:02,449 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:36:52 CST 2016 
+2016-01-26 16:37:02,458 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:37:02,463 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:37:29,222 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:37:29,226 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:37:35,734 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:37:35,741 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:37:35,745 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:37:35,775 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:37:35,775 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:37:35 CST 2016 
+2016-01-26 16:37:35,776 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:37:35,776 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:37:39,501 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 0 
+2016-01-26 16:37:39,548 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 3024 new words into jieba dictionary. 
+2016-01-26 16:37:39,549 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:37:43,020 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:37:43,022 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:37:43,022 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:37:43,024 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:37:43,107 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:185 - splittedWord: 一带 一路 概念  
+2016-01-26 16:37:43,107 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:37:43,112 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477463024 ,end time = 1453797463024 
+2016-01-26 16:37:43,297 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:37:44,661 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:300 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:37:44,662 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:223 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:37:44,662 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:224 - textObjList size: 14 
+2016-01-26 16:37:44,662 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:225 - themeName: 一带一路 
+2016-01-26 16:37:44,662 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - securityList size: 3026 
+2016-01-26 16:37:44,724 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:37:44,724 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:37:44,725 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:37:44,725 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:37:44,855 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:37:44,859 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:37:44,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:37:44,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:37:44,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:37:44,860 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:37:44,861 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:37:44,861 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:37:44,863 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:37:44,864 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:37:44,865 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:37:35 CST 2016 
+2016-01-26 16:37:44,865 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:37:44,865 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:43:55,600 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:43:55,603 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:44:00,947 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:44:00,953 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:44:00,957 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:44:01,005 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:44:01,006 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:44:01 CST 2016 
+2016-01-26 16:44:01,007 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:44:01,007 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:44:06,569 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 3025 
+2016-01-26 16:44:06,602 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 16:44:06,602 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:44:11,854 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:44:11,855 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:44:11,856 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:44:11,856 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:44:13,126 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:186 - splittedWord: 一带 一路 概念  
+2016-01-26 16:44:13,127 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:44:13,132 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477851857 ,end time = 1453797851857 
+2016-01-26 16:44:13,323 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:44:14,494 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:44:14,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:44:14,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:227 - textObjList size: 14 
+2016-01-26 16:44:14,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:228 - themeName: 一带一路 
+2016-01-26 16:44:14,495 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:229 - securityList size: 3026 
+2016-01-26 16:44:14,557 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:306 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:44:14,557 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:44:14,558 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:44:14,558 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:44:14,667 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:44:14,674 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:44:14,674 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:44:14,674 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:44:14,675 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:44:14,675 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:44:14,676 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:44:14,676 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:44:14,678 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:44:14,679 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:44:14,680 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:44:01 CST 2016 
+2016-01-26 16:44:14,680 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:44:14,680 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:45:50,045 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:45:50,048 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:45:55,667 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:45:55,673 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:45:55,678 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:45:55,707 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:45:55,708 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:45:55 CST 2016 
+2016-01-26 16:45:55,709 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:45:55,710 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:46:00,959 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12267 
+2016-01-26 16:46:01,006 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 515 new words into jieba dictionary. 
+2016-01-26 16:46:01,006 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:46:05,741 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 1; 
+2016-01-26 16:46:05,742 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 0 
+2016-01-26 16:46:05,743 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:46:05,755 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:46:07,200 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:186 - splittedWord: 一带 一路 概念  
+2016-01-26 16:46:07,200 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:46:07,207 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449477965757 ,end time = 1453797965757 
+2016-01-26 16:46:07,408 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 14 
+2016-01-26 16:46:07,734 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - search new with keyword: 一带一路概念, result size: 14 
+2016-01-26 16:46:07,735 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:46:07,735 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:227 - textObjList size: 14 
+2016-01-26 16:46:07,736 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:228 - themeName: 一带一路 
+2016-01-26 16:46:07,736 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:229 - securityList size: 3026 
+2016-01-26 16:46:07,893 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:306 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 11 
+2016-01-26 16:46:07,894 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:46:07,894 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:46:07,895 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:46:08,031 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:46:08,039 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 0 
+2016-01-26 16:46:08,040 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:46:08,040 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 0; securityList size: 3026, isSchedule: true 
+2016-01-26 16:46:08,040 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:46:08,040 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:46:08,041 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 1 
+2016-01-26 16:46:08,041 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 1 themes have theme-security pair information need to be QA today 
+2016-01-26 16:46:08,043 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:46:08,051 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:46:08,052 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:45:55 CST 2016 
+2016-01-26 16:46:08,052 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:46:08,052 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
+2016-01-26 16:50:42,695 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:64 - Init batch. 
+2016-01-26 16:50:42,698 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:23 - Init context. 
+2016-01-26 16:50:48,247 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:25 - Init context success. 
+2016-01-26 16:50:48,254 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:43 - Start to init updateBeforeQATask dump job. 
+2016-01-26 16:50:48,258 [main] [INFO] com.datayes.bdb.theme.stock.batch.Bootstrap Line:83 - Batch is working. 
+2016-01-26 16:50:48,306 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:31 - Start to do UpdateBeforeQATask dump job. 
+2016-01-26 16:50:48,307 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:65 - start to do dump task: Tue Jan 26 16:50:48 CST 2016 
+2016-01-26 16:50:48,308 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:28 - start updateLocalDataOnce 
+2016-01-26 16:50:48,308 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:63 - jieba user dictionary file path: data/dict/user.dict 
+2016-01-26 16:50:52,639 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:67 - original jieba dictionary size: 12783 
+2016-01-26 16:50:52,712 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:84 - Add 0 new words into jieba dictionary. 
+2016-01-26 16:50:52,713 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:226 - start getThemeSecPairToBeQA(); 
+2016-01-26 16:50:56,826 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:233 - all themes list size: 2; 
+2016-01-26 16:50:56,872 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:125 - handled theme list size: 1 
+2016-01-26 16:50:56,872 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:116 - get unhandled theme list size: 1 
+2016-01-26 16:50:56,873 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:236 - unhandled themes list size: 1; 
+2016-01-26 16:50:58,257 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:186 - splittedWord: 虚拟 现实 虚拟现实 概念  
+2016-01-26 16:50:58,257 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=虚拟 现实 虚拟现实 概念 ,from 2015-12-07 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:50:58,263 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1449478256883 ,end time = 1453798256883 
+2016-01-26 16:50:59,138 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 235 
+2016-01-26 16:51:02,348 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - search new with keyword: 虚拟现实概念, result size: 235 
+2016-01-26 16:51:02,349 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:51:02,349 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:227 - textObjList size: 235 
+2016-01-26 16:51:02,349 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:228 - themeName: 虚拟现实 
+2016-01-26 16:51:02,349 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:229 - securityList size: 3026 
+2016-01-26 16:51:02,818 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:306 - getThemeSecpairListFromTextList, themeName: 虚拟现实, themeSecurityPairList size: 65 
+2016-01-26 16:51:02,819 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:51:02,819 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: false 
+2016-01-26 16:51:02,819 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:51:03,139 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 虚拟现实, mongoThemeStockList size: 3 
+2016-01-26 16:51:03,141 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:250 - schedule themes Set size: 1 
+2016-01-26 16:51:03,142 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:186 - splittedWord: 一带 一路 一带一路 概念  
+2016-01-26 16:51:03,143 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:82 - Advance search news : keyword=一带 一路 一带一路 概念 ,from 2015-10-18 to 2016-01-26, page from 0 to 500  
+2016-01-26 16:51:03,143 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:92 - start time = 1445158263142 ,end time = 1453798263142 
+2016-01-26 16:51:03,196 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.NewsSearcher Line:116 - Advanced search result size = 0 
+2016-01-26 16:51:03,196 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:303 - search new with keyword: 一带一路概念, result size: 0 
+2016-01-26 16:51:03,197 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:226 - getThemeSecPairListFromTextList, @Param: textObjList, @Param: themeName, @Param: themeID, @Param: securityList 
+2016-01-26 16:51:03,197 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:227 - textObjList size: 0 
+2016-01-26 16:51:03,197 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:228 - themeName: 一带一路 
+2016-01-26 16:51:03,197 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:229 - securityList size: 3026 
+2016-01-26 16:51:03,198 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.TextAnalizer Line:306 - getThemeSecpairListFromTextList, themeName: 一带一路, themeSecurityPairList size: 0 
+2016-01-26 16:51:03,198 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:120 - findThemeSecPair with mongo data 
+2016-01-26 16:51:03,198 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:121 - themeSet size: 1; securityList size: 3026, isSchedule: true 
+2016-01-26 16:51:03,198 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:140 - mongo data from: 2015-12-07, to 20160126 
+2016-01-26 16:51:03,241 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.MongoDataAnalizer Line:154 - themeName: 一带一路, mongoThemeStockList size: 21 
+2016-01-26 16:51:03,244 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:269 - finished getThemeSecPairToBeQA(); 
+2016-01-26 16:51:03,244 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:35 - themeSecPairMap size: 2 
+2016-01-26 16:51:03,245 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.business.LocalUpdater Line:284 - 2 themes have theme-security pair information need to be QA today 
+2016-01-26 16:51:03,246 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:51:03,253 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.util.FileIOUtil Line:147 - write theme sec pair into file success 
+2016-01-26 16:51:03,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:44 - finished updataLocalDataOnce 
+2016-01-26 16:51:03,259 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.task.UpdateBeforeQATask Line:72 - finished dump task: Tue Jan 26 16:50:48 CST 2016 
+2016-01-26 16:51:03,260 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:33 - Finish to do UpdateBeforeQATask dump job. 
+2016-01-26 16:51:03,260 [myExecutor-1] [INFO] com.datayes.bdb.theme.stock.batch.BaseTask Line:37 - Finish to do UpdateBeforeQATask dump job, start to do schedule job. 
